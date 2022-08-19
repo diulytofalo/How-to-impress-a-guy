@@ -34,7 +34,7 @@ body{
 
 .button_box{
     display: grid;
-    grid-template-columns: 100vh 1fr;
+    grid-template-columns: 50% 1fr;
 }
 
 .button1, .button2{
@@ -74,23 +74,28 @@ body{
 
 @media (max-width: 620px) {
     body{
-        background-position-y: -8vh;
-        background-position-x: center;
+        background-position-y: unset;
+        background-size: cover;
+        object-fit: cover;
     }
 
     .quest{
-        margin-top: 20px;
+        margin-top: 5vh;
         margin-left: 10vh;
         margin-right: 10vh;
+        font-size: 15px;
     }
 
     .button_box{
-        grid-template-columns: 100px 1fr;
+        grid-template-columns: 115px 1fr;
     }
 
     .button1, .button2{
-        margin-top: 50vh;
+        margin-top: 60vh;
+        margin-bottom: 15vh;
         margin-left: 5px;
         margin-right: 5px;
+        font-size: 12px;
+        padding: 5px;
     }    
 }
