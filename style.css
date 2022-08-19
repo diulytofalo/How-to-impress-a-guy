@@ -19,7 +19,6 @@ body{
     object-fit: scale-down;
     background-position-y: -50vh;
     background-position-x: center;
-    overflow: hidden;
 }
 
 .quest{
@@ -31,7 +30,6 @@ body{
     border-radius: 5cm;
     background-color: rgb(150, 7, 7);
     box-shadow: 0 4px 8px rgb(0, 0, 0, .57);
-    
 }
 
 .button_box{
@@ -74,13 +72,25 @@ body{
     z-index: 1;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 620px) {
     body{
         background-position-y: -8vh;
         background-position-x: center;
     }
 
+    .quest{
+        margin-top: 5vh;
+        margin-left: 10vh;
+        margin-right: 10vh;
+    }
+
     .button_box{
         grid-template-columns: 35vh 1fr;
     }
+
+    .button1, .button2{
+        margin-top: 60vh;
+        margin-left: 3vh;
+        margin-right: 3vh;
+    }    
 }
