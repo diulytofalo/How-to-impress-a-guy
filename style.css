@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    width: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    background: url(icons_and_images/love_rosie.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+    background-position-y: -50vh;
+    background-position-x: center;
+    overflow: hidden;
+}
+
+.quest{
+    margin-top: 10vh;
+    margin-left: 15vh;
+    margin-right: 15vh;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 5cm;
+    background-color: rgb(150, 7, 7);
+    box-shadow: 0 4px 8px rgb(0, 0, 0, .57);
+    
+}
+
+.button_box{
+    display: grid;
+    grid-template-columns: 100vh 1fr;
+}
+
+.button1, .button2{
+    margin-top: 65vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    padding: 15px;
+    border-radius: 5cm;
+    background-color: rgb(150, 7, 7);
+    box-shadow: 0 4px 8px rgb(0, 0, 0, .93);
+    position: relative;
+    overflow: hidden;
+}
+
+.button1::before{
+    content: '';
+    position: absolute;
+    background-color: black;
+    width: 0px;
+    height: 0px;
+    border-radius: 10cm;
+    left: var(--xPosition);
+    top: var(--yPosition);
+    transform: translate(-50%, -50%);
+    transition: width .7s, height .5s;
+}
+
+.button1:hover::before{
+    height: 500%;
+    width: 500%;
+}
+
+.button_text{
+    position: relative;
+    z-index: 1;
+}
+
+@media (max-width: 900px) {
+    body{
+        background-position-y: -8vh;
+        background-position-x: center;
+    }
+
+    .button_box{
+        grid-template-columns: 35vh 1fr;
+    }
+}
