@@ -79,18 +79,18 @@ body{
     }
 
     .quest{
-        margin-top: 5vh;
+        margin-top: 20px;
         margin-left: 10vh;
         margin-right: 10vh;
     }
 
     .button_box{
-        grid-template-columns: 15vh 1fr;
+        grid-template-columns: 100px 1fr;
     }
 
     .button1, .button2{
         margin-top: 50vh;
-        margin-left: 1vh;
-        margin-right: 1vh;
+        margin-left: 5px;
+        margin-right: 5px;
     }    
 }
