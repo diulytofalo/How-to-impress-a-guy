@@ -85,12 +85,12 @@ body{
     }
 
     .button_box{
-        grid-template-columns: 35vh 1fr;
+        grid-template-columns: 15vh 1fr;
     }
 
     .button1, .button2{
-        margin-top: 60vh;
-        margin-left: 3vh;
-        margin-right: 3vh;
+        margin-top: 50vh;
+        margin-left: 1vh;
+        margin-right: 1vh;
     }    
 }
