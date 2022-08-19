@@ -80,7 +80,7 @@ body{
     }
 
     .quest{
-        margin-top: 5vh;
+        margin-top: 10vh;
         margin-left: 10vh;
         margin-right: 10vh;
         font-size: 15px;
@@ -91,8 +91,8 @@ body{
     }
 
     .button1, .button2{
-        margin-top: 60vh;
-        margin-bottom: 18vh;
+        margin-top: 65vh;
+        margin-bottom: 20vh;
         margin-left: 5px;
         margin-right: 5px;
         font-size: 12px;
