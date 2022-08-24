@@ -38,6 +38,9 @@ body{
 }
 
 .button1, .button2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 65vh;
     margin-left: 5vh;
     margin-right: 5vh;
